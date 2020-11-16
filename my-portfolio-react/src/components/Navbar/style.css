@@ -1,0 +1,14 @@
+nav.navbar {
+ background: #ffcccc;
+ opacity: 0.8;
+}
+
+#jfName {
+    font-family: "DM Serif Text, serif";
+}  
+
+#jfLink {
+    font-size: 30px;
+    color: #808080;
+}  
+
