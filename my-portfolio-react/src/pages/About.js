@@ -5,12 +5,25 @@ import Footer from "../components/Footer";
 // import Card from "../components/Card";
 
 const styles = {
-    imageSize: {
-        maxWidth: 250,
-        maxHeight: 250
-    },
     iconSize: {
         height: 30
+    },
+    card: {
+        backgroundColor: "#ffcccc",
+        borderRadius: 20,
+        maxWidth: "100%",
+        opacity: 0.9
+    },
+    cardHeader: {
+        fontFamily: "DM Serif Text, serif"
+    },
+    imgMe: {
+        backgroundColor: "#ffe8e8",
+        borderRadius: 20,
+        outline: "#ffe8e8",
+        outlineWidth: 2,
+        maxWidth: 250,
+        maxHeight: 250
     }
 }
 
@@ -22,13 +35,13 @@ function About() {
             <main className="container">
             <section className="row" styles="padding-bottom: 100px;">
                 <div className="col-sm-12 col-md-12 col-lg-10 p-5 rounded">
-                    <div className="card cardPage" styles="max-width: 100%; opacity:.9">
+                    <div className="card" style={styles.card}>
                         <div className="card-body">
-                            <h2 className="card-title text-info font-weight-bold" styles="font-family: 'DM Serif Text', serif;">About Me</h2>
+                            <h2 className="card-title text-info" style={styles.cardHeader}>About Me</h2>
                             <hr/>
                             <div className="row">
                                 <div class="col-sm-12 col-md-12 mb-4">
-                                    <img src="../../assets/me.jpg" alt="Janessa Fong" className="img-thumbnail float-left mr-4 picMe" style={styles.imageSize} />
+                                    <img src="../../assets/me.jpg" alt="Janessa Fong" className="img-thumbnail float-left mr-4 picMe" style={styles.imgMe} />
                                     <p className="card-text">I currently live in Walnut Creek, California. I'm currently enrolled as a full-time student in UC Berkeley's Coding Bootcamp Program. I was born on March 16, 1995. I grew up in Manila, Philippines. I graduated with a bachelor's
                                         degree in Management of Financial Institutions in 2017 at De La Salle University - Manila. I am a dancer who was a part of the official dance organization of the university known as La Salle Dance Company - Street.
                                         I took up leadership roles in the organization as the division manager for finance in 2015-2016 and division manager of marketing in 2016-2017.
@@ -55,7 +68,7 @@ function About() {
                                     </a>
                                     <br/>
                                     <br/>
-                                    <a href="assets/images/Resume_(Fong).pdf" target="_blank" rel="noreferrer" styles="color:black">
+                                    <a href="../../assets/Resume_(Fong).pdf" target="_blank" rel="noreferrer" styles="color:black">
                                         <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" className="bi bi-file-earmark-person mb-1 mr-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
                                             <path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z"/>
