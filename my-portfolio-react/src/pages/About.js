@@ -4,6 +4,16 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 // import Card from "../components/Card";
 
+const styles = {
+    imageSize: {
+        maxWidth: 250,
+        maxHeight: 250
+    },
+    iconSize: {
+        height: 30
+    }
+}
+
 
 function About() {
     return(
@@ -18,7 +28,7 @@ function About() {
                             <hr/>
                             <div className="row">
                                 <div class="col-sm-12 col-md-12 mb-4">
-                                    <img src="assets/images/me.jpg" alt="Janessa Fong" className="img-thumbnail float-left mr-4 picMe" styles="max-width:250px; max-height:250px"/>
+                                    <img src="../../assets/me.jpg" alt="Janessa Fong" className="img-thumbnail float-left mr-4 picMe" style={styles.imageSize} />
                                     <p className="card-text">I currently live in Walnut Creek, California. I'm currently enrolled as a full-time student in UC Berkeley's Coding Bootcamp Program. I was born on March 16, 1995. I grew up in Manila, Philippines. I graduated with a bachelor's
                                         degree in Management of Financial Institutions in 2017 at De La Salle University - Manila. I am a dancer who was a part of the official dance organization of the university known as La Salle Dance Company - Street.
                                         I took up leadership roles in the organization as the division manager for finance in 2015-2016 and division manager of marketing in 2016-2017.
@@ -31,17 +41,17 @@ function About() {
                                     <p className="card-text">Check out my social media accounts:</p>
 
                                     <a href="https://www.facebook.com/jerrikarefong/" target="_blank" rel="noreferrer">
-                                        <img src="assets/images/f_logo_RGB-Black_58.png" styles="height:30px" className="mr-2" alt="facebook logo" />
+                                        <img src="../../assets/f_logo_RGB-Black_58.png" style={styles.iconSize} className="mr-2" alt="facebook logo" />
                                     </a>
 
                                     <a href="https://www.instagram.com/gummyjerbear/" target="_blank" rel="noreferrer">
-                                        <img src="assets/images/glyph-logo_May2016.png" styles="height:30px" className="mr-2" alt="instagram logo" />
+                                        <img src="../../assets/glyph-logo_May2016.png" style={styles.iconSize} className="mr-2" alt="instagram logo" />
                                     </a>
                                     <a href="https://github.com/janessaref/" target="_blank" rel="noreferrer">
-                                        <img src="assets/images/GitHub-Mark-32px.png" styles="height:30px" className="mr-2" alt="github logo" />
+                                        <img src="../../assets/GitHub-Mark-32px.png" style={styles.iconSize} className="mr-2" alt="github logo" />
                                     </a>
                                     <a href="https://www.linkedin.com/in/janessafong/" target="_blank" rel="noreferrer">
-                                        <img src="assets/images/In-Black-34px-R.png" styles="height:30px" className="mr-2" alt="linkedin logo" />
+                                        <img src="../../assets/In-Black-34px-R.png" style={styles.iconSize} className="mr-2" alt="linkedin logo" />
                                     </a>
                                     <br/>
                                     <br/>
