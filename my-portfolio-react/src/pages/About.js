@@ -24,6 +24,12 @@ const styles = {
         outlineWidth: 2,
         maxWidth: 250,
         maxHeight: 250
+    },
+    paddingStyle: {
+        paddingBottom: 100
+    },
+    fontColor: {
+        color: "black"
     }
 }
 
@@ -33,11 +39,11 @@ function About() {
         <React.Fragment>
             <Navbar />
             <main className="container">
-            <section className="row" styles="padding-bottom: 100px;">
+            <section className="row" style={styles.paddingStyle}>
                 <div className="col-sm-12 col-md-12 col-lg-10 p-5 rounded">
                     <div className="card" style={styles.card}>
                         <div className="card-body">
-                            <h2 className="card-title text-info" style={styles.cardHeader}>About Me</h2>
+                            <h2 className="card-title text-info font-weight-bold" style={styles.cardHeader}>About Me</h2>
                             <hr/>
                             <div className="row">
                                 <div class="col-sm-12 col-md-12 mb-4">
@@ -68,7 +74,7 @@ function About() {
                                     </a>
                                     <br/>
                                     <br/>
-                                    <a href="../../assets/Resume_(Fong).pdf" target="_blank" rel="noreferrer" styles="color:black">
+                                    <a href="../../assets/Resume_(Fong).pdf" target="_blank" rel="noreferrer" style={styles.fontColor}>
                                         <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" className="bi bi-file-earmark-person mb-1 mr-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
                                             <path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z"/>
