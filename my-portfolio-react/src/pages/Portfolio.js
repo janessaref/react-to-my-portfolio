@@ -1,7 +1,7 @@
 import React from "react";
-// import Container from "../components/Container"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Project from "../components/Project";
 
 const styles = {
     iconSize: {
@@ -42,8 +42,7 @@ function Portfolio() {
                                 <h2 className="card-title text-info font-weight-bold" style={styles.cardHeader}>Portfolio</h2>
                                 <hr/>
                                 <div className="row mx-auto px-auto">
-                                {/* add projects */}
-                
+                                    <Project />
                                 </div>
                             </div>
                         </div>
