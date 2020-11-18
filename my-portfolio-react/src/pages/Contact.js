@@ -1,7 +1,8 @@
 import React from "react";
-// import Container from "../components/Container"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const styles = {
     iconSize: {
@@ -35,7 +36,7 @@ function Contact() {
             <main className="container">
             <section className="row">
             <div className="col-sm-12 col-md-9 col-lg-9 p-5 rounded">
-                <div className="card" style={styles.card}>
+                <div className="card" data-aos="flip-down" data-aos-duration="3000" style={styles.card}>
                     <div className="card-body">
                         <h2 className="card-title font-weight-bold" style={styles.cardHeader}>Contact</h2>
                         <hr/>
@@ -68,7 +69,7 @@ function Contact() {
             {/* Phone Number and Email Card */}
             <div className="row ml-4 w-100 mr-5 text-center" style={styles.paddingStyle}>
                 <div className="col-sm-12 col-md-9 col-lg-9 rounded">
-                    <div className="card ml-2" style={styles.card}>
+                    <div className="card ml-2" data-aos="zoom-in-up" data-aos-duration="3000" style={styles.card}>
                         <div className="card-body">
                             <div class="row mx-auto h-auto w-auto">
                                 <div className="col-lg-12 mx-auto h-auto w-auto">

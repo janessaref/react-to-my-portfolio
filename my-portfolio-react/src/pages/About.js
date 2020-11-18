@@ -2,7 +2,8 @@ import React from "react";
 // import Container from "../components/Container"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-// import Card from "../components/Card";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const styles = {
     iconSize: {
@@ -41,7 +42,7 @@ function About() {
             <main className="container">
             <section className="row" style={styles.paddingStyle}>
                 <div className="col-sm-12 col-md-12 col-lg-10 p-5 rounded">
-                    <div className="card" style={styles.card}>
+                    <div className="card" data-aos="flip-down" data-aos-duration="3000" style={styles.card}>
                         <div className="card-body">
                             <h2 className="card-title font-weight-bold" style={styles.cardHeader}>About Me</h2>
                             <hr/>
