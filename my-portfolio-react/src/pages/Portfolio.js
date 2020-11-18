@@ -39,13 +39,11 @@ function Portfolio() {
                         <div className="card m-5" style={styles.card}>
                             <div className="card-body">
                                 <h2 className="card-title font-weight-bold" style={styles.cardHeader}>Portfolio</h2>
+                                <p style={styles.cardHeader}>The title links to the repository | The image links to the application</p>
                                 <hr/>
                                 <div className="row mx-auto px-auto">
                                 <Project />
                                 </div>
-    
-                                    
-                              
                             </div>
                         </div>
                         <div className="col-md-4 col-lg-3"></div>

@@ -35,7 +35,7 @@ function Project() {
                                     />
                                 </a>
                             </div>
-                            <div className="row mb-4"></div>
+                            <div className="row mb-4 mr-1"></div>
                         </>
                     )
                 })}
