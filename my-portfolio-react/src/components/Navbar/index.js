@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
 import { NavLink } from "react-router-dom";
-import PageLinks from "../PageLinks";
-
-
+// import PageLinks from "../PageLinks";
 
 
 function Navbar() {
@@ -19,7 +17,6 @@ function Navbar() {
             </button>
 
             <div className="collapse navbar-collapse" id="navbarNav">
-                {/* <PageLinks /> */}
                 <ul className="navbar-nav ml-md-auto">
                     <li className="nav-item">
                         <NavLink to="/contact" className="nav-link links">Contact</NavLink>
