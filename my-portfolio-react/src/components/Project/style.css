@@ -1,5 +1,5 @@
-.ghURL {
-    font-size: 13px;
+.githubLink {
+    font-size: 14px;
     color: black;
 }
 
@@ -12,5 +12,6 @@
 
 .projIMG {
     height: auto;
-    width: 300px;
+    width: 280px;
+    border-radius: 3px;
 }

@@ -29,7 +29,6 @@ const styles = {
     }
 };
 
-
 function Portfolio() {
     return(
         <React.Fragment>
@@ -42,8 +41,11 @@ function Portfolio() {
                                 <h2 className="card-title text-info font-weight-bold" style={styles.cardHeader}>Portfolio</h2>
                                 <hr/>
                                 <div className="row mx-auto px-auto">
-                                    <Project />
+                                <Project />
                                 </div>
+    
+                                    
+                              
                             </div>
                         </div>
                         <div className="col-md-4 col-lg-3"></div>
