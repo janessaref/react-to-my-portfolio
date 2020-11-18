@@ -5,6 +5,8 @@ import Project from "../components/Project";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+AOS.init();
+
 const styles = {
     iconSize: {
         height: 30
@@ -28,6 +30,10 @@ const styles = {
     },
     paddingStyle: {
         paddingBottom: 100
+    },
+    submitBtn: {
+        marginLeft: 0,
+        marginRight: 0,
     }
 };
 
