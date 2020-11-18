@@ -2,50 +2,50 @@
     {
       "id": 1,
       "title": "MUSIC PLAYR",
-      "image": "./assets/images/playr.png",
+      "image": "./assets/playr.png",
       "githubURL": "https://github.com/janessaref/Playr/tree/script",
       "appURL": "https://janessaref.github.io/Playr/",
-      "logo": "./assets/images/GitHub-Mark-32px.png"
+      "logo": "./assets/GitHub-Mark-32px.png"
     },
     {
         "id": 2,
         "title": "GAME OF THRONES QUIZ",
-        "image": "./assets/images/trivia-quiz.png",
+        "image": "./assets/trivia-quiz.png",
         "githubURL": "https://github.com/janessaref/impossible-game-of-thrones-quiz",
         "appURL": "https://janessaref.github.io/impossible-game-of-thrones-quiz/",
-        "logo": "./assets/images/GitHub-Mark-32px.png"
+        "logo": "./assets/GitHub-Mark-32px.png"
       },
       {
         "id": 3,
         "title": "THE GOOD BURGER",
-        "image": "./assets/images/burgerapp.png",
+        "image": "./assets/burgerapp.png",
         "githubURL": "https://github.com/janessaref/hamburglar",
         "appURL": "https://thegoodburger.herokuapp.com/",
-        "logo": "./assets/images/GitHub-Mark-32px.png"
+        "logo": "./assets/GitHub-Mark-32px.png"
       },
       {
         "id": 4,
         "title": "AVATAR: CLICK GAME",
-        "image": "./assets/images/avatargame.gif",
+        "image": "./assets/avatargame.gif",
         "githubURL": "https://github.com/janessaref/clickity-click-game",
         "appURL": "https://janessaref.github.io/clickity-click-game/",
-        "logo": "./assets/images/GitHub-Mark-32px.png"
+        "logo": "./assets/GitHub-Mark-32px.png"
       },
       {
         "id": 5,
         "title": "WHAT THE FACT",
-        "image": "./assets/images/wtf.gif",
+        "image": "./assets/wtf.gif",
         "githubURL": "https://github.com/janessaref/whatTheFact",
         "appURL": "https://what-the-fact.herokuapp.com/",
-        "logo": "./assets/images/GitHub-Mark-32px.png"
+        "logo": "./assets/GitHub-Mark-32px.png"
       },
       {
         "id": 6,
         "title": "WEATHER DASHBOARD",
-        "image": "./assets/images/weather-dashboard.png",
+        "image": "./assets/weather-dashboard.png",
         "githubURL": "https://github.com/janessaref/cloudy-with-a-chance-of-javascript",
         "appURL": "https://janessaref.github.io/cloudy-with-a-chance-of-javascript/" ,
-        "logo": "./assets/images/GitHub-Mark-32px.png"
+        "logo": "./assets/GitHub-Mark-32px.png"
       }
    
   ]
