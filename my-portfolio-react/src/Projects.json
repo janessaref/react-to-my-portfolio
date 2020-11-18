@@ -25,10 +25,10 @@
       },
       {
         "id": 4,
-        "title": "AVATAR: CLICK GAME",
-        "image": "./assets/avatargame.gif",
-        "githubURL": "https://github.com/janessaref/clickity-click-game",
-        "appURL": "https://janessaref.github.io/clickity-click-game/",
+        "title": "NOTE TAKER",
+        "image": "./assets/notespage.png",
+        "githubURL": "https://github.com/janessaref/sticky-notes",
+        "appURL": "https://notetaker-expresslane.herokuapp.com/",
         "logo": "./assets/GitHub-Mark-32px.png"
       },
       {
@@ -41,12 +41,19 @@
       },
       {
         "id": 6,
-        "title": "WEATHER DASHBOARD",
-        "image": "./assets/weather-dashboard.png",
-        "githubURL": "https://github.com/janessaref/cloudy-with-a-chance-of-javascript",
-        "appURL": "https://janessaref.github.io/cloudy-with-a-chance-of-javascript/" ,
+        "title": "PLAN YOUR DAY",
+        "image": "./assets/dayplannerpic.png",
+        "githubURL": "https://github.com/janessaref/plan-your-day",
+        "appURL": "https://janessaref.github.io/plan-your-day/" ,
         "logo": "./assets/GitHub-Mark-32px.png"
-      }
-   
+      },
+      {
+        "id": 7,
+        "title": "AVATAR: CLICK GAME",
+        "image": "./assets/avatargame.gif",
+        "githubURL": "https://github.com/janessaref/clickity-click-game",
+        "appURL": "https://janessaref.github.io/clickity-click-game/",
+        "logo": "./assets/GitHub-Mark-32px.png"
+      } 
   ]
   

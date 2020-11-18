@@ -1,6 +1,7 @@
 nav.navbar {
- background: #ffcccc;
- opacity: 0.8;
+ background: #86936b;
+ opacity: 0.85;
+ box-shadow: 3px 3px 3px #5a6349;
 }
 
 #jfName {
@@ -9,6 +10,7 @@ nav.navbar {
 
 #jfLink {
     font-size: 30px;
-    color: #808080;
+    color: white;
+    font-weight: bold;
 }  
 

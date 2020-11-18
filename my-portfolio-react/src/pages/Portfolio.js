@@ -8,7 +8,7 @@ const styles = {
         height: 30
     },
     card: {
-        backgroundColor: "#ffcccc",
+        backgroundColor: "#ced1c1",
         borderRadius: 20,
         maxWidth: "100%",
         opacity: 0.9,
@@ -38,7 +38,7 @@ function Portfolio() {
                     <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8 p-0 rounded">
                         <div className="card m-5" style={styles.card}>
                             <div className="card-body">
-                                <h2 className="card-title text-info font-weight-bold" style={styles.cardHeader}>Portfolio</h2>
+                                <h2 className="card-title font-weight-bold" style={styles.cardHeader}>Portfolio</h2>
                                 <hr/>
                                 <div className="row mx-auto px-auto">
                                 <Project />
