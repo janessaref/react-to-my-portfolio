@@ -9,7 +9,7 @@ const styles = {
         height: 30
     },
     card: {
-        backgroundColor: "#ffcccc",
+        backgroundColor: "#ced1c1",
         borderRadius: 20,
         maxWidth: "100%",
         opacity: 0.9
@@ -18,7 +18,7 @@ const styles = {
         fontFamily: "DM Serif Text, serif"
     },
     imgMe: {
-        backgroundColor: "#ffe8e8",
+        backgroundColor: "#86936b",
         borderRadius: 20,
         outline: "#ffe8e8",
         outlineWidth: 2,
@@ -43,7 +43,7 @@ function About() {
                 <div className="col-sm-12 col-md-12 col-lg-10 p-5 rounded">
                     <div className="card" style={styles.card}>
                         <div className="card-body">
-                            <h2 className="card-title text-info font-weight-bold" style={styles.cardHeader}>About Me</h2>
+                            <h2 className="card-title font-weight-bold" style={styles.cardHeader}>About Me</h2>
                             <hr/>
                             <div className="row">
                                 <div class="col-sm-12 col-md-12 mb-4">

@@ -8,7 +8,7 @@ const styles = {
         height: 30
     },
     card: {
-        backgroundColor: "#ffcccc",
+        backgroundColor: "#ced1c1",
         borderRadius: 20,
         maxWidth: "100%",
         opacity: 0.9
@@ -17,7 +17,7 @@ const styles = {
         fontFamily: "DM Serif Text, serif"
     },
     inputField: {
-        backgroundColor: "#ffe8e8",
+        backgroundColor: "#bbc0a7",
         borderRadius: 12
     },
     contactInfo: {
@@ -37,7 +37,7 @@ function Contact() {
             <div className="col-sm-12 col-md-9 col-lg-9 p-5 rounded">
                 <div className="card" style={styles.card}>
                     <div className="card-body">
-                        <h2 className="card-title text-info font-weight-bold" style={styles.cardHeader}>Contact</h2>
+                        <h2 className="card-title font-weight-bold" style={styles.cardHeader}>Contact</h2>
                         <hr/>
                         <div className="row">
                             <div className="col-sm-12 mb-3 p-4">
@@ -56,7 +56,7 @@ function Contact() {
                                         <label for="exampleFormControlTextarea1">Message</label>
                                         <textarea className="form-control" id="messageInput" rows="3" placeholder="Message" style={styles.inputField}></textarea>
                                     </div>
-                                    <button type="button" className="btn btn-outline-info mt-3 submitBtn">Submit</button>
+                                    <button type="button" className="btn btn-outline-dark mt-3 submitBtn">Submit</button>
                                 </form>
                             </div>
                         </div>
