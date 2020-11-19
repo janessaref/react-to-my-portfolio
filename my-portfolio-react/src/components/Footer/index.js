@@ -1,8 +1,8 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
 
+// Footer for all my pages
 function Footer() {
-
     return (
         <footer className="jumbotron jumbotron-fluid mt-2 mb-4 p-4 fixed-bottom" id="mainFooter">
             <div className="jumbotron jumbotron-fluid mt-5 mb-0 p-3 pt-5 fixed-bottom" id="childFooter">
@@ -11,7 +11,7 @@ function Footer() {
                 </div>
             </div>
         </footer>
-    )
+    );
 };
 
 export default Footer;
