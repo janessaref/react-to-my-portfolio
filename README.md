@@ -111,7 +111,7 @@ I've chosen this code snippet because I have a Project component that I am expor
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://janessaref.herokuapp.com/)
 
 
 ## Authors
@@ -120,7 +120,7 @@ I've chosen this code snippet because I have a Project component that I am expor
 
 - [Link to Github](https://github.com/janessaref)
 - [Link to LinkedIn](https://www.linkedin.com/in/janessafong)
-- [Link to Portfolio]()
+- [Link to Portfolio](https://janessaref.herokuapp.com/)
 
 ## License
 
