@@ -35,7 +35,7 @@ const styles = {
     }
 };
 
-// Portfolio page
+// Portfolio page with the card
 function Portfolio() {
     return(
         <React.Fragment>
@@ -43,9 +43,9 @@ function Portfolio() {
             <main className="container">
                 <section className="row mx-auto px-auto" style={styles.paddingStyle}>
                     <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8 p-0 rounded">
-                        <div className="card m-5" data-aos="flip-left" data-aos-duration="3000" style={styles.card}>
+                        <div className="card m-5" data-aos="flip-left" data-aos-duration="1500" style={styles.card}>
                             <div className="card-body">
-                                <h2 className="card-title font-weight-bold" style={styles.cardHeader}>Portfolio</h2>
+                                <h2 className="card-title" style={styles.cardHeader}>Portfolio</h2>
                                 <p style={styles.cardHeader}>The title links to the repository | The image links to the application</p>
                                 <hr/>
                                 <div className="row mx-auto px-auto">

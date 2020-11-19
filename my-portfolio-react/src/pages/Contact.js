@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Form from "../components/Form";
 
 // importing AOS animation and initializing it
 AOS.init();
@@ -33,6 +34,7 @@ const styles = {
     }
 };
 
+// Contact page with the card
 function Contact() {
     return(
         <React.Fragment>
@@ -41,29 +43,13 @@ function Contact() {
             <main className="container">
                 <section className="row">
                     <div className="col-sm-12 col-md-9 col-lg-9 p-5 rounded">
-                        <div className="card" data-aos="flip-down" data-aos-duration="3000" style={styles.card}>
+                        <div className="card" data-aos="zoom-out" data-aos-duration="1500" style={styles.card}>
                             <div className="card-body">
                                 <h2 className="card-title" style={styles.cardHeader}>Contact</h2>
                                 <hr/>
                                 <div className="row">
                                     <div className="col-sm-12 mb-3 p-4">
-                                        <form className="contactForm">
-                                            <div className="form-group">
-                                                <label for="exampleFormControlInput1">Full Name</label>
-                                                <input type="text" className="form-control" id="nameInput" placeholder="Full Name" style={styles.inputField} />
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="exampleFormControlInput2">Email</label>
-                                                <input type="email" className="form-control" id="emailInput" placeholder="Email" style={styles.inputField} />
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="exampleFormControlTextarea1">Message</label>
-                                                <textarea className="form-control" id="messageInput" rows="3" placeholder="Message" style={styles.inputField}></textarea>
-                                            </div>
-                                            <button type="button" className="btn btn-outline-dark mt-3 submitBtn">Submit</button>
-                                        </form>
+                                        <Form />
                                     </div>
                                 </div>
                             </div>

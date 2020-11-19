@@ -37,7 +37,7 @@ const styles = {
     }
 };
 
-// About card
+// About page with the card
 function About() {
     return(
         <React.Fragment>
