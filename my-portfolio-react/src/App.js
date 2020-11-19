@@ -1,15 +1,11 @@
-// import logo from './logo.svg';
-// import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-// import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
 
+// App function with the routes to our pages
 function App() {
   return (
-   
     <Router>
       <div>
         <Switch>
@@ -20,9 +16,8 @@ function App() {
         </Switch>
       </div>
     </Router>
-     
   );
-}
+};
 
 export default App;
 
