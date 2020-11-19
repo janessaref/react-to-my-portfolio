@@ -15,7 +15,7 @@ nav.navbar {
     text-shadow: 7px 5px 3px #5a6349;
 }
 
-.nav-link {
+/* .nav-link {
     font-size: larger;
     font-weight: 300;
     color: white !important;
@@ -24,6 +24,6 @@ nav.navbar {
 .nav-link:hover,
 .nav-link:active {
     color: #e9d2c0 !important
-}
+} */
 
 
