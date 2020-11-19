@@ -22,7 +22,7 @@
     text-decoration: none !important;
 }
 .contactInfo:hover {
-    color: #86936b;
+    color: #485826;
     text-decoration: none !important;
 }
 .paddingStyle {
@@ -37,5 +37,11 @@
     max-height: 250px
 }
 #resume {
-    color: black
+    color: black;
+    font-weight: 500;
+}
+#resume:hover {
+    color: #485826;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px gray;
 }

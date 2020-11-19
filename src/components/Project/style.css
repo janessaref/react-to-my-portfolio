@@ -1,6 +1,12 @@
 .githubLink {
     font-size: 14px;
     color: black;
+    font-weight: 500;
+}
+
+.githubLink:hover {
+    color: #485826;  
+    text-decoration: none;
 }
 
 .ghLogo {
@@ -16,4 +22,8 @@
     border-radius: 5px;
     background-color: #99a187;
     border-color: #99a187
+}
+
+.projIMG:hover {
+    box-shadow: 5px 5px 5px rgb(31, 31, 31);
 }
