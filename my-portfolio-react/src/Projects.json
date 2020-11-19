@@ -17,18 +17,18 @@
       },
       {
         "id": 3,
-        "title": "THE GOOD BURGER",
-        "image": "./assets/burgerapp.png",
-        "githubURL": "https://github.com/janessaref/hamburglar",
-        "appURL": "https://thegoodburger.herokuapp.com/",
+        "title": "PASSWORD GENERATOR",
+        "image": "./assets/password-generator.png",
+        "githubURL": "https://github.com/janessaref/password-generator",
+        "appURL": "https://janessaref.github.io/password-generator/",
         "logo": "./assets/GitHub-Mark-32px.png"
       },
       {
         "id": 4,
-        "title": "NOTE TAKER",
-        "image": "./assets/notespage.png",
-        "githubURL": "https://github.com/janessaref/sticky-notes",
-        "appURL": "https://notetaker-expresslane.herokuapp.com/",
+        "title": "WEATHER DASHBOARD",
+        "image": "./assets/weather-dashboard.png",
+        "githubURL": "https://github.com/janessaref/cloudy-with-a-chance-of-javascript",
+        "appURL": "https://janessaref.github.io/cloudy-with-a-chance-of-javascript/",
         "logo": "./assets/GitHub-Mark-32px.png"
       },
       {
@@ -49,11 +49,35 @@
       },
       {
         "id": 7,
+        "title": "THE GOOD BURGER",
+        "image": "./assets/burgerapp.png",
+        "githubURL": "https://github.com/janessaref/hamburglar",
+        "appURL": "https://thegoodburger.herokuapp.com/",
+        "logo": "./assets/GitHub-Mark-32px.png"
+      },
+      {
+        "id": 8,
+        "title": "NOTE TAKER",
+        "image": "./assets/notespage.png",
+        "githubURL": "https://github.com/janessaref/sticky-notes",
+        "appURL": "https://notetaker-expresslane.herokuapp.com/",
+        "logo": "./assets/GitHub-Mark-32px.png"
+      },
+      {
+        "id": 9,
         "title": "AVATAR: CLICK GAME",
         "image": "./assets/avatargame.gif",
         "githubURL": "https://github.com/janessaref/clickity-click-game",
         "appURL": "https://janessaref.github.io/clickity-click-game/",
         "logo": "./assets/GitHub-Mark-32px.png"
-      } 
+      },
+      {
+        "id": 10,
+        "title": "FITNESS TRACKER",
+        "image": "./assets/fittrack.gif",
+        "githubURL": "https://github.com/janessaref/fitness-tracker",
+        "appURL": "https://mighty-tor-92805.herokuapp.com/",
+        "logo": "./assets/GitHub-Mark-32px.png"
+      }
   ]
   
