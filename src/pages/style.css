@@ -1,0 +1,37 @@
+.iconSize {
+    height: 30px
+}
+.card {
+    background-color: #ced1c1;
+    border-radius: 20px;
+    max-width: "100%";
+    opacity: 0.9
+}
+#portfolioCard {
+    height: auto
+}
+.cardHeader {
+    font-family: DM Serif Text, serif;
+}
+.inputField {
+    background-color: #bbc0a7;
+    border-radius: 12px
+}
+.contactInfo {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+.paddingStyle {
+    padding-bottom: 100px
+}
+#imgMe {
+    background-color: #86936b;
+    border-radius: 20px;
+    outline: #ffe8e8;
+    outline-width: 2px;
+    max-width: 250px;
+    max-height: 250px
+}
+#resume {
+    color: black
+}

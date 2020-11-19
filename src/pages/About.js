@@ -3,39 +3,10 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./style.css";
 
 // importing AOS animation and initializing it
 AOS.init();
-
-// styling for the About Page
-const styles = {
-    iconSize: {
-        height: 30
-    },
-    card: {
-        backgroundColor: "#ced1c1",
-        borderRadius: 20,
-        maxWidth: "100%",
-        opacity: 0.9
-    },
-    cardHeader: {
-        fontFamily: "DM Serif Text, serif"
-    },
-    imgMe: {
-        backgroundColor: "#86936b",
-        borderRadius: 20,
-        outline: "#ffe8e8",
-        outlineWidth: 2,
-        maxWidth: 250,
-        maxHeight: 250
-    },
-    paddingStyle: {
-        paddingBottom: 100
-    },
-    fontColor: {
-        color: "black"
-    }
-};
 
 // About page with the card
 function About() {
@@ -43,15 +14,15 @@ function About() {
         <React.Fragment>
             <Navbar />
             <main className="container">
-                <section className="row" style={styles.paddingStyle}>
+                <section className="row paddingStyle">
                     <div className="col-sm-12 col-md-12 col-lg-10 p-5 rounded">
-                        <div className="card" data-aos="flip-down" data-aos-duration="3000" style={styles.card}>
+                        <div className="card" data-aos="flip-down" data-aos-duration="3000">
                             <div className="card-body">
-                                <h2 className="card-title" style={styles.cardHeader}>About Me</h2>
+                                <h2 className="card-title cardHeader">About Me</h2>
                                 <hr/>
                                 <div className="row">
                                     <div class="col-sm-12 col-md-12 mb-4">
-                                        <img src="../../assets/me.jpg" alt="Janessa Fong" className="img-thumbnail float-left mr-4 picMe" style={styles.imgMe} />
+                                        <img src="../../assets/me.jpg" alt="Janessa Fong" className="img-thumbnail float-left mr-4" id="imgMe" />
                                         <p className="card-text">I currently live in Walnut Creek, California. I'm currently enrolled as a full-time student in UC Berkeley's Coding Bootcamp Program. I was born on March 16, 1995. I grew up in Manila, Philippines. I graduated with a bachelor's
                                             degree in Management of Financial Institutions in 2017 at De La Salle University - Manila. I am a dancer who was a part of the official dance organization of the university known as La Salle Dance Company - Street.
                                             I took up leadership roles in the organization as the division manager for finance in 2015-2016 and division manager of marketing in 2016-2017.
@@ -64,21 +35,21 @@ function About() {
                                         <p className="card-text">Check out my social media accounts:</p>
 
                                         <a href="https://www.facebook.com/jerrikarefong/" target="_blank" rel="noreferrer">
-                                            <img src="../../assets/f_logo_RGB-Black_58.png" style={styles.iconSize} className="mr-2" alt="facebook logo" />
+                                            <img src="../../assets/f_logo_RGB-Black_58.png" className="mr-2 iconSize" alt="facebook logo" />
                                         </a>
 
                                         <a href="https://www.instagram.com/gummyjerbear/" target="_blank" rel="noreferrer">
-                                            <img src="../../assets/glyph-logo_May2016.png" style={styles.iconSize} className="mr-2" alt="instagram logo" />
+                                            <img src="../../assets/glyph-logo_May2016.png" className="mr-2 iconSize" alt="instagram logo" />
                                         </a>
                                         <a href="https://github.com/janessaref/" target="_blank" rel="noreferrer">
-                                            <img src="../../assets/GitHub-Mark-32px.png" style={styles.iconSize} className="mr-2" alt="github logo" />
+                                            <img src="../../assets/GitHub-Mark-32px.png"  className="mr-2 iconSize" alt="github logo" />
                                         </a>
                                         <a href="https://www.linkedin.com/in/janessafong/" target="_blank" rel="noreferrer">
-                                            <img src="../../assets/In-Black-34px-R.png" style={styles.iconSize} className="mr-2" alt="linkedin logo" />
+                                            <img src="../../assets/In-Black-34px-R.png" className="mr-2 iconSize" alt="linkedin logo" />
                                         </a>
                                         <br/>
                                         <br/>
-                                        <a href="../../assets/Resume_(Fong).pdf" target="_blank" rel="noreferrer" style={styles.fontColor}>
+                                        <a href="../../assets/Resume_(Fong).pdf" target="_blank" rel="noreferrer" id="resume">
                                             <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" className="bi bi-file-earmark-person mb-1 mr-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
                                                 <path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z"/>
