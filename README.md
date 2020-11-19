@@ -60,15 +60,15 @@ This project has a number of features including:
 
 ## GIF of Project
 
-![gif](#)
+![gif](assets/portfolio.gif)
 
 ## Images of Project
 
 Attached below are screenshots in their screen sizes 400px, 768px, and 992px, respectively.
 
-![400](#)
-![768](#)
-![992](#)
+![400](assets/400.png)
+![768](assets/768.png)
+![992](assets/992.png)
 
 ## Code Snippet
 
