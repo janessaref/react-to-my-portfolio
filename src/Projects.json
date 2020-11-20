@@ -78,6 +78,14 @@
         "githubURL": "https://github.com/janessaref/fitness-tracker",
         "appURL": "https://mighty-tor-92805.herokuapp.com/",
         "logo": "./assets/GitHub-Mark-32px.png"
+      },
+      {
+        "id": 11,
+        "title": "GOOGLE LIBRARY",
+        "image": "./assets/googlebooks.gif",
+        "githubURL": "https://github.com/janessaref/google-books-search",
+        "appURL": "https://googlelibrary-search.herokuapp.com/",
+        "logo": "./assets/GitHub-Mark-32px.png"
       }
   ]
   
