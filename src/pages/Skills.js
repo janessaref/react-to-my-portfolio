@@ -16,11 +16,11 @@ function Skills() {
             <main className="container">
                 <section className="row paddingStyle">
                     <div className="col-sm-12 col-md-12 col-lg-10 p-5 rounded">
-                        <div className="card" data-aos="flip-down" data-aos-duration="3000">
+                        <div className="card" data-aos="zoom-in" data-aos-duration="3000">
                             <div className="card-body">
                                 <h2 className="card-title cardHeader">Technical Skills</h2>
                                 <hr/>
-                                <div className="d-flex flex-wrap justify-content-center">
+                                <div className="d-flex flex-wrap justify-content-center pt-4">
                                     <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
                                         <img src="../../assets/Git-Logo-Black.png" className="mr-3 mb-2 pb-2" width="100px" alt="git logo" />
                                     </a>
