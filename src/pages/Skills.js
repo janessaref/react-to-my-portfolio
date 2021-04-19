@@ -20,49 +20,51 @@ function Skills() {
                             <div className="card-body">
                                 <h2 className="card-title cardHeader">Technical Skills</h2>
                                 <hr/>
+                                <div className="d-flex flex-wrap justify-content-center">
                                     <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/Git-Logo-Black.png" className="mr-2" width="100px" alt="git logo" />
+                                        <img src="../../assets/Git-Logo-Black.png" className="mr-3 mb-2 pb-2" width="100px" alt="git logo" />
                                     </a>
 
                                     <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/html5-logo.png" className="mr-2" width="100px" alt="html5 logo" />
+                                        <img src="../../assets/html5-logo.png" className="mr-3 mb-2 pb-2" width="100px" alt="html5 logo" />
                                     </a>
 
                                     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/css3-logo.png" className="mr-2" width="100px" alt="css3 logo" />
+                                        <img src="../../assets/css3-logo.png" className="mr-3 mb-2 pb-2" width="100px" alt="css3 logo" />
                                     </a>
 
                                     <a href="https://www.javascript.com/" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/JavaScript-logo.png" className="mr-2" width="100px" alt="javascript logo" />
+                                        <img src="../../assets/JavaScript-logo.png" className="mr-3 mb-2 pb-2" width="100px" alt="javascript logo" />
                                     </a>
 
                                     <a href="https://handlebarsjs.com/" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/handlebars_logo.png" className="mr-2" width="100px" alt="handlebars logo" />
+                                        <img src="../../assets/handlebars_logo.png" className="mr-3 mb-2 pb-2" width="100px" alt="handlebars logo" />
                                     </a>
 
                                     <a href="https://jquery.com/" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/jquery-logo.png" className="mr-2" width="100px" alt="jquery logo" />
+                                        <img src="../../assets/jquery-logo.png" className="mr-3 mb-2 pb-2" width="100px" alt="jquery logo" />
                                     </a>
 
                                     <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/nodejs-logo.png" className="mr-2" width="100px" alt="nodejs logo" />
+                                        <img src="../../assets/nodejs-logo.png" className="mr-3 mb-2 pb-2" width="100px" alt="nodejs logo" />
                                     </a>
 
                                     <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/logo512.png" className="mr-2" width="100px" alt="react logo" />
+                                        <img src="../../assets/logo512.png" className="mr-3 mb-2 pb-2" width="100px" alt="react logo" />
                                     </a>
                                     
                                     <a href="https://www.mysql.com" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/logo-mysql.png" className="mr-2" width="100px" alt="mysql logo" />
+                                        <img src="../../assets/logo-mysql.png" className="mr-3 mb-2 pb-2" width="100px" alt="mysql logo" />
                                     </a>
 
                                     <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/MongoDB_LogoStacked_FullColorBlack_RGB.png" className="mr-2" width="100px" alt="mongoDB logo" />
+                                        <img src="../../assets/MongoDB_LogoStacked_FullColorBlack_RGB.png" className="mr-3 mb-2 pb-2" width="100px" alt="mongoDB logo" />
                                     </a>
 
                                     <a href="https://www.heroku.com/" target="_blank" rel="noreferrer">
-                                        <img src="../../assets/heroku-logotype-vertical-purple.png" className="mr-2" width="100px" alt="heroku logo" />
+                                        <img src="../../assets/heroku-logotype-vertical-purple.png" className="mr-3 mb-2 pb-2" width="100px" alt="heroku logo" />
                                     </a>
+                                </div>  
                             </div>
                         </div>
                     </div>
