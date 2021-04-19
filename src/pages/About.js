@@ -23,14 +23,17 @@ function About() {
                                 <div className="row">
                                     <div class="col-sm-12 col-md-12 mb-4">
                                         <img src="../../assets/me.jpg" alt="Janessa Fong" className="img-thumbnail float-left mr-4" id="imgMe" />
-                                        <p className="card-text">I currently live in Walnut Creek, California. I'm currently enrolled as a full-time student in UC Berkeley's Coding Bootcamp Program. I was born on March 16, 1995. I grew up in Manila, Philippines. I graduated with a bachelor's
+                                        <p className="card-text">I currently live in Walnut Creek, California. I was a full-time student in the UC Berkeley's Coding Bootcamp Program. I was born on March 16, 1995. I grew up in Manila, Philippines. I graduated with a bachelor's
                                             degree in Management of Financial Institutions in 2017 at De La Salle University - Manila. I am a dancer who was a part of the official dance organization of the university known as La Salle Dance Company - Street.
                                             I took up leadership roles in the organization as the division manager for finance in 2015-2016 and division manager of marketing in 2016-2017.
                                         </p>
 
-                                        <p className="card-text">I'm a competitive person. My sport is badminton. I am into fashion and I also love music. The instruments I play are the piano and the ukulele. I enjoy karaoke. I am adventurous and love amusement parks. I love animals.
-                                            I love to travel and eat.
+                                        <p className="card-text">I am passionate about becoming a Front End Web Developer. I enjoy creating user-friendly applications while also creating a mood and an aesthetic that are pleasing to the eye. I'm all about continuously learning and adapting. I decided to pursue this path because it thrills me that I can be creative and technical at the same time. I do hope to strive and become a master coder but for now, I am still one in training and excited to also venture on other programming languages that I will come across.
                                         </p>
+
+                                        {/* <p className="card-text">I'm a competitive person. My sport is badminton. I am into fashion and I also love music. The instruments I play are the piano and the ukulele. I enjoy karaoke. I am adventurous and love amusement parks. I love animals.
+                                            I love to travel and eat.
+                                        </p> */}
 
                                         <p className="card-text">Check out my social media accounts:</p>
 
