@@ -24,6 +24,10 @@ function Navbar() {
                         <li className="nav-item">
                             <NavLink to="/portfolio" className="nav-link links">Portfolio</NavLink>
                         </li>
+                        
+                        <li className="nav-item">
+                            <NavLink to="/skills" className="nav-link links">Skills</NavLink>
+                        </li>
 
                         <li className="nav-item">
                             <NavLink to="/about" className="nav-link links">About</NavLink>
